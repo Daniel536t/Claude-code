@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "=== Your AWS IP Address ==="
+echo ""
+echo "Public IP: $(curl -s ifconfig.me)"
+echo ""
+echo "📌 Use this for Vercel environment variable:"
+echo "   REACT_APP_SERVER_URL=http://$(curl -s ifconfig.me):8000"
+echo ""
+echo "📌 Your backend URLs:"
+echo "   API: http://$(curl -s ifconfig.me):8000"
+echo "   WebSocket: ws://$(curl -s ifconfig.me):8000/ws/{session_id}"
+echo ""
+echo "⚠️  Make sure AWS security group allows port 8000"
