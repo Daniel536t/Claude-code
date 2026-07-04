@@ -1,0 +1,35 @@
+#!/bin/bash
+echo "╔══════════════════════════════════════════╗"
+echo "║   Codex Quick Reference                ║"
+echo "╚══════════════════════════════════════════╝"
+echo ""
+
+echo "📌 Codex Commands:"
+echo "  fcc-codex exec 'prompt'              # Run Codex with prompt"
+echo "  fcc-codex --help                      # Show Codex help"
+echo "  fcc-codex exec --help                # Show exec help"
+echo ""
+
+echo "📌 Codex Features:"
+echo "  - Code generation and editing"
+echo "  - File operations"
+echo "  - Terminal commands"
+echo "  - Multi-turn conversations"
+echo "  - Model switching via FCC"
+echo ""
+
+echo "📌 Model Switching for Codex:"
+echo "  ~/switch.sh kimi                     # Use Kimi K2.6"
+echo "  ~/switch.sh nemotron                 # Use Nemotron"
+echo "  ~/switch.sh deepseek                 # Use DeepSeek"
+echo ""
+
+echo "📌 Troubleshooting:"
+echo "  ~/fix_codex.sh                       # Fix Codex config"
+echo "  ~/test_codex.sh                      # Test Codex"
+echo "  fcc-log                              # View logs"
+echo ""
+
+echo "📌 Combined Tools:"
+echo "  ~/codex_llm.sh 'prompt'              # Codex → llm.py fallback"
+echo "  ~/compare_agents.sh                  # Compare Claude vs Codex"
